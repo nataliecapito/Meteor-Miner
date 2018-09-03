@@ -15,8 +15,8 @@ for development; takes IOS or Android simulator
 
 ## Testing
 Catches anything that is incorrect in building.
-- IOS simulator (Xcode)
-- Android simulator
+- IOS simulator (xcode)
+- Android simulator (n/a)
 
 ## Example Images
 | O.P | Panel | |
@@ -24,4 +24,4 @@ Catches anything that is incorrect in building.
 | `IOS` | Home | ![MeteorMiner-preview-page](public/images/preview_images/MeteorMiner-preview.png) |
 | `IOS` | Game Play | ![MeteorMiner-game-page](public/images/preview_images/MeteorMiner-game-preview.png) |
 
-### Updated: 08/03/18
+### Updated: 09/03/18
