@@ -4,7 +4,7 @@ Tap, tap, tap. Destroy those pesky meteors one by one to gain points. BUT WAIT, 
 
 # General
 ## Running/Viewing (Simulation)/Building
-for development; takes IOS or Android simulator
+for development -> takes IOS, only, simulator.
 
 ## Note:
 - Some code files (Resources/Classes) and images (Resources/Images) are not mine/not created by me, and have been included to 'fill' gapes from when this project was deleted/re-salvaged back in 2015. Thank you.
@@ -12,7 +12,6 @@ for development; takes IOS or Android simulator
 
 ## Publishing
 - IOS -> Itunes Connect -> IOS App Store -> NONE/NEVER
-- Android -> Google Play Store Upload -> Google Play Store -> NONE/NEVER
 
 ## Viewing Live
 - IOS: https://www.youtube.com/watch?v=j8cd252TTFU
@@ -20,7 +19,6 @@ for development; takes IOS or Android simulator
 ## Testing
 Catches anything that is incorrect in building.
 - IOS simulator (xcode)
-- Android simulator (n/a)
 
 ## Example Images
 | O.P | Panel | |
@@ -28,4 +26,4 @@ Catches anything that is incorrect in building.
 | `IOS` | Home | ![MeteorMiner-preview-page](public/images/preview_images/MeteorMiner-preview.png) |
 | `IOS` | Game Play | ![MeteorMiner-game-page](public/images/preview_images/MeteorMiner-game-preview.png) |
 
-### Updated: 09/03/18
+### Updated: 09/09/18
