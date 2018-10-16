@@ -7,7 +7,7 @@ Simple space miner game, where tapping the correct meteor can either save or des
 for development -> takes IOS, only, simulator.
 
 ## Publishing
-- IOS -> Itunes Connect -> IOS App Store -> NEVER
+- IOS -> Itunes Connect -> IOS App Store -> Testflight Only
 
 ## Viewing Live
 - IOS: https://www.youtube.com/watch?v=j8cd252TTFU

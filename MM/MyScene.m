@@ -58,11 +58,11 @@ FMMParallaxNode *_parallaxSpace;
         [self addChild:_parallaxSpace];
 
 #pragma mark - Setup Sprite for the ship
-//        _ship = [SKSpriteNode spriteNodeWithImageNamed:@"Ship3.png"];
-//        [_ship setXScale:0.7];
-//        [_ship setYScale:1.0];
-//        _ship.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame));
-//        [self addChild:_ship];
+        _ship = [SKSpriteNode spriteNodeWithImageNamed:@"Ship3.png"];
+        [_ship setXScale:0.7];
+        [_ship setYScale:0.7];
+        _ship.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame));
+        [self addChild:_ship];
         
 #pragma mark - Setup the asteroids
         asteroidArray = [[NSMutableArray alloc] initWithCapacity:kNumAsteroids];
@@ -93,7 +93,7 @@ FMMParallaxNode *_parallaxSpace;
         [_hudNode addChild:_tapToStartNode];
         // Tap to Help
         _tapToHelpNode = [SKSpriteNode spriteNodeWithImageNamed:@"menuhelp"];
-        _tapToHelpNode.position = CGPointMake(CGRectGetMidX(self.frame), self.frame.size.height * 0.31);
+        _tapToHelpNode.position = CGPointMake(CGRectGetMidX(self.frame), self.frame.size.height * 0.30);
         [_hudNode addChild:_tapToHelpNode];
         
         gameState = 0;
@@ -182,7 +182,7 @@ FMMParallaxNode *_parallaxSpace;
     [_hudNode addChild:_tapToStartNode];
     // Tap to Help
     _tapToHelpNode = [SKSpriteNode spriteNodeWithImageNamed:@"menuhelp"];
-    _tapToHelpNode.position = CGPointMake(CGRectGetMidX(self.frame), self.frame.size.height * 0.31);
+    _tapToHelpNode.position = CGPointMake(CGRectGetMidX(self.frame), self.frame.size.height * 0.30);
     [_hudNode addChild:_tapToHelpNode];
 
     [self updateScoreLabel:[self getHighScore]];
