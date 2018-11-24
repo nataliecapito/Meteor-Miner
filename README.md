@@ -1,6 +1,5 @@
 # Meteor Miner
-## Description
-Simple space miner game, where tapping the correct meteor can either save or destroy you. Be careful, get that high-score, and you got this!
+- Simple space miner game, where tapping the correct meteor can either save or destroy you. Be careful, get that high-score, and you got this!
 
 # General
 ## Running/Viewing (Simulation)/Building
@@ -16,7 +15,7 @@ for development -> takes IOS, only, simulator.
 Catches anything that is incorrect in building.
 - IOS simulator (xcode)
 
-## Example Images (New)
+## Example Images (11/03/18)
 | O.P | Panel | |
 | --- | --- | --- |
 | `IOS` | Home | ![MeteorMiner-preview-page](public/images/preview_images/MeteorMiner-preview-6.5iphone1.png) |
